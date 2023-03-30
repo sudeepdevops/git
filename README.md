@@ -13,8 +13,8 @@ Git branches is the only solution for parallel development and parallel contribu
 ### What is a Git Branch ?
 
 ```
-A branch is a version of your repository, or in other words, an independent line of development. A repository
-can contain multiple branches, which means there are multiple versions of the repository.
+A branch is a version of your repository, or in other words, an independent line of development. A 
+repository can contain multiple branches, which means there are multiple versions of the repository.
 
 Among all, main / master branch is something which you should always a checkout to create a new /feature 
 branch
@@ -42,16 +42,16 @@ So, majority of the times, your branch names should be the following way
 ### Common GIT Commands
 
 ```
-$ git branch                                       // Shows you the list of branches and your current branch
+$ git branch                                       // Shows you list of branches and your current branch
 $ git branch brancName                             // Creates a branch from the main branch 
 $ git checkout branchName                          // Switches to the created branch
-$ git checkout -b branchName                       // Creates a new branch from the main branch as source and 
+$ git checkout -b branchName                       // Creates a new branch from main branch as source and 
 swithes to the created branch
-$ git push origin remoteBranchName                 // Pushes the changes to the remote branch; If the branch 
+$ git push origin remoteBranchName                 // Pushes the changes to the remote branch; If branch 
 doesn't exist on remote git, it creates by the same push   
 
-Whenever you push any changes and if they look good and stable on main branch, then you will raise/create a 
-create a Git Tag.
+Whenever you push any changes and if they look good and stable on main branch, then you will raise/create
+a create a Git Tag.
 
 Git Tag : Creating a name to a commit, which can referenced later and using that we can make the software.
 
