@@ -5,7 +5,7 @@ Git is a version control system used by almost all the organizations to version 
 
 ``` 
 
-### How can you control parallel development and how multiple developers can contribute and develop the code parallely ?
+### How can you control parallel development and how multiple developers can contribute and develop code parallely?
 ```
 Git branches is the only solution for parallel development and parallel contribution
 ```
@@ -13,7 +13,8 @@ Git branches is the only solution for parallel development and parallel contribu
 ### What is a Git Branch ?
 
 ```
-A branch is a version of your repository, or in other words, an independent line of development. A repository can contain multiple branches, which means there are multiple versions of the repository.
+A branch is a version of your repository, or in other words, an independent line of development. A repository can 
+contain multiple branches, which means there are multiple versions of the repository.
 
 Among all, main / master branch is something which you should always a checkout to create a new /feature branch
 ```
