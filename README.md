@@ -59,3 +59,14 @@ Git Tag : Creating a name to a commit, which can referenced later and using that
 Git and Linux are like oceans, infinite things are there to learn. Both of them are created by the same 
 person : Linux Torvalds
 ```
+### Practice
+Move to folder to be tagged
+$ cd sudedevops/ansible
+List the tags already present
+$ git tag -l 
+Choose the release number and tag them locally
+$ git tag 0.0.2
+Push them to repo
+$ git push --tags
+View the list of tags to confirm
+$ git tag -l
