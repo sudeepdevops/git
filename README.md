@@ -60,7 +60,8 @@ Git and Linux are like oceans, infinite things are there to learn. Both of them 
 person : Linux Torvalds
 ```
 ### Practice
-Move to folder to be tagged
+Open gitbash
+Change to directoty to be tagged
 $ cd sudedevops/ansible
 List the tags already present
 $ git tag -l 
