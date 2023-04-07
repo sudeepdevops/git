@@ -74,3 +74,9 @@ $ git tag -l
 
 Finding the latest release number,incrementing to next patch/service release number, and tagging is automated.
 $ bash sudedevops/ansible/auto-tag.sh
+
+Delete the tag locally
+$ git tag -d 0.0.3
+Delete the tag at remote repo
+$ git push --delete origin 0.0.3
+
