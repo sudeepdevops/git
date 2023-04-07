@@ -71,3 +71,6 @@ Push them to repo
 $ git push --tags
 View the list of tags to confirm
 $ git tag -l
+
+Finding the latest release number,incrementing to next patch/service release number, and tagging is automated.
+$ bash sudedevops/ansible/auto-tag.sh
