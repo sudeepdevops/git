@@ -5,7 +5,7 @@ Git is a version control system used by almost all the organizations to version 
 
 ``` 
 
-### How can control parallel development and how multiple developers can contribute, develop code parallely?
+### How can control parallel development and how multiple developers can contribute, develop code in parallel?
 ```
 Git branches is the only solution for parallel development and parallel contribution
 ```
@@ -20,7 +20,7 @@ Among all, main / master branch is something which you should always a checkout 
 branch
 ```
 
-### Git Branch Naming Sttagegy
+### Git Branch Naming Strategy
 
 ```
 Branch Naming will be based on your organization.
@@ -43,10 +43,10 @@ So, majority of the times, your branch names should be the following way
 
 ```
 $ git branch                                       // Shows you list of branches and your current branch
-$ git branch brancName                             // Creates a branch from the main branch 
+$ git branch branchName                             // Creates a branch from the main branch 
 $ git checkout branchName                          // Switches to the created branch
 $ git checkout -b branchName                       // Creates a new branch from main branch as source and 
-swithes to the created branch
+switches to the created branch
 $ git push origin remoteBranchName                 // Pushes the changes to the remote branch; If branch 
 doesn't exist on remote git, it creates by the same push   
 
@@ -61,7 +61,7 @@ person : Linux Torvalds
 ```
 ### Practice
 Open gitbash
-Change to directoty to be tagged
+Change to directory to be tagged
 $ cd sudedevops/ansible
 List the tags already present
 $ git tag -l 
